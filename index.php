@@ -14,7 +14,7 @@ $sql = "SELECT * FROM `online-bookstore`.book
 $books = $conn->query($sql);
 ?>
 
-<?php require_once "header.php" ?>
+<?php require_once "header.php" ?><br><br>
 <main>
     <div class="container">
 
